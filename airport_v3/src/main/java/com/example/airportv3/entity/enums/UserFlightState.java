@@ -1,0 +1,12 @@
+package com.example.airportv3.entity.enums;
+
+public enum UserFlightState {
+    CLIENT_REGISTERED_FOR_FLIGHT,
+    CLIENT_REGISTRATION_DECLINED,
+    CLIENT_CHECKED,
+    CLIENT_BRIEFED,
+    CLIENT_FOOD_DISTRIBUTED,
+    CREW_MEMBER_REGISTERED_FOR_FLIGHT,
+    CREW_MEMBER_READY,
+    ARRIVED
+}
