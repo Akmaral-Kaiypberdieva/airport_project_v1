@@ -63,7 +63,7 @@ public class WebConfiguration {
         http
                 .httpBasic().and()
                 .authorizeHttpRequests()
-                .antMatchers("/client_auth/**")
+                .antMatchers("/**/auth/**")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
